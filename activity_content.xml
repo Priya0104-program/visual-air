@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ad"
+    tools:context=".admin">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_centerInParent="true">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ABOUT OUR APP"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Air pollution is a major hassle in the global world which causes toxicological to human health and the environment. Existing tracking systems consist of low sensitivity, unaware of the region and require laboratory analysis. To triumph over the problems of present systems, presenting a three-segment air pollutant monitoring system by the use of IoT along with cloud to make the services real-time and faster. The proposed device consists of the layout for monitoring air pollutants like Carbon Di Oxide and creating awareness to the public. An IoT kit consists of sensors, Arduino IDE and NodeMCU. This kit can be physically positioned in numerous cities for tracking air pollutants. The sensors gather records from air and forward the data to the Arduino IDE. The Arduino IDE transmits the sensed data to the cloud through the Wi-Fi module. Developing a portable and user- friendly android application termed Visual-air, facilitates users to know the percentage of harmful gases at their location. If general people where able to know the amount greenhouse gases present in the environment they would also help and try to control it and this we would be able to save earth from  greenhouse effect."
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textSize="30dp"/>
+
+
+        <Button
+            android:id="@+id/cont"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:text="BACK"
+            android:background="@color/background_color" />
+    </LinearLayout>
+</RelativeLayout>
